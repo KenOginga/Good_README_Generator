@@ -31,7 +31,7 @@ const questions = [
         ]
     },
     {
-        name: "dependecies",
+        name: "dependencies",
         message: "What commands should be run to install the dependecies?"
     },
     {
