@@ -44,9 +44,6 @@ const questions = [
         name: "usage",
         message: "What command should be applied to run the application?"
     }
-    
-   
-
 ];
 
 // function to write README file
