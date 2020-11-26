@@ -3,13 +3,10 @@
     
        
   # Description
-  When creating an open source project on GitHub, it’s important to have a high-quality README for the  application. This project command line application automatically generates a professional readme file for the repository based on the user's answers. When the application runs, it presents a series of questions in the terminal whose answers fill the sections in the readme.
+  When creating an open source project on GitHub, it’s important to have a high-quality README for the application. This project command line application automatically generates a professional readme file for the repository based on the user's answers. When the application runs, it presents a series of questions in the terminal whose answers fill the sections in the readme.
 
   # Demonstration
 
-
-
-  # Output Readme
 
 
   # Table of Contents
@@ -32,9 +29,10 @@
 
 
   # Contributors
- Kennedy Oginga
+  Kennedy Oginga
 
   
+    
 
   # Contacts
   ###### Email address: kn.oginga@gmail.com

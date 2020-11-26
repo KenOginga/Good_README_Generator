@@ -9,11 +9,7 @@ function generateMarkdown(data) {
 
   # Demonstration
 
-
-
-  # Output Readme
-
-
+  
   # Table of Contents
   * [Project Description](#Description)
   * [Installation](#Installation)
@@ -24,10 +20,10 @@ function generateMarkdown(data) {
   
       
   # Installation
-  ${data.dependencies}
+  Run ${data.dependencies} to install dependencies.
 
   # Usage
-  ${data.usage}
+  Run ${data.usage} in the terminal to start the application.
 
   # License
   This repository is licensed under the ${data.license} license.
