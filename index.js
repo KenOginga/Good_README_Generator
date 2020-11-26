@@ -1,7 +1,9 @@
+// referencing the node packages.
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// array of questions to be prompted to generate user response.
 const questions = [
     {
         name: "githubUsername",
@@ -20,6 +22,10 @@ const questions = [
         message: "Write a short description of your project"
     },
     {
+        name: "contributors",
+        message: "Name the contributor(s) in this project."
+    },
+    {
         name: "license",
         type: "list",
         message: "What kind of licence will your project have?",
@@ -35,9 +41,11 @@ const questions = [
         message: "What commands should be run to install the dependecies?"
     },
     {
-        name: "contributors",
-        message: "Name the contributor(s) in this project."
+        name: "usage",
+        message: "What command should be applied to run the application?"
     }
+    
+   
 
 ];
 

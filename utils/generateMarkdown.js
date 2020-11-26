@@ -7,34 +7,41 @@ function generateMarkdown(data) {
   # Description
   ${data.projectDescription}
 
+  # Demonstration
+
+
+
+  # Output Readme
+
 
   # Table of Contents
   * [Project Description](#Description)
   * [Installation](#Installation)
+  * [Usage](#Usage)
   * [Licence](#License)
   * [Contributors](#Contributors)
-  * [Questions](#questions)
-  * 
+  * [Contacts](#Contacts)
+  
       
   # Installation
   ${data.dependencies}
 
+  # Usage
+  ${data.usage}
 
   # License
-  ${data.license}
+  This repository is licensed under the ${data.license} license.
 
 
   # Contributors
   ${data.contributors}
 
-  # Demo/Screenshot
+  
     
 
-  # Questions
-    In case you have any questions, contact the project owner using the contacts below:
-
-  #### Email address: ${data.emailAddress}
-  #### GitHub Account: ${data.githubUsername}
+  # Contacts
+  ###### Email address: ${data.emailAddress}
+  ###### GitHub Account: ${data.githubUsername}
 
     `;
     
